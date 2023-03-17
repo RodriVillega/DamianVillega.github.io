@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="https://thumbs.dreamstime.com/b/graffiti-con-letra-r-delgada-pintado-en-blanco-y-negro-155831251.jpg">
+</head>
+
+<body>
+    <!--encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="Logo">
+                <a href="#">R</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#Inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#SobreMi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#Curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#Contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!--inicio-->
+    <section id="Inicio" class="Inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="https://st2.depositphotos.com/19428878/44645/v/600/depositphotos_446453832-stock-illustration-default-avatar-profile-icon-social.jpg"
+                    class="fotoperfil" alt="">
+            </div>
+            <h1>Rodrigo Villega</h1>
+            <h2>Estudiante de la Facultad de Ingenieria</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/rodrigo.villegafernandez"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/RoodriVillega"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/rodrii__fernandeez/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=%2B543884589858&text=Holi%2Ccomo+ta%3F"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--sobre mi-->
+    <section id="SobreMi" class="SobreMi">
+        <div class="contenido-seccion">
+            <h2>SOBRE MI</h2>
+            <p><span>Hola,soy Rodrigo Damian Villega Fernandez</span> soy estudiante de la Facultad de Ingenieria de San
+                Salvador de Jujuy,actualmente estoy viviendo en Barrio Arenales Departamento Dr.Manuel Belgrano.Soy
+                vendedor ambulante de Tamales y Humitas por las mañanas de Martes a Domingo desde las 11:30 hasta
+                14:30.Actualmente estoy en pareja.Estoy en un curso que brinda el pais de programacion que se llama
+                ArgentinaPrograma y curse la primera etapa aprobando el examen con una nota del 100% y me preparo para
+                la segunda etapa que comienza en Abril. </p>
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>DATOS PERSONALES</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            17-04-2001
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            +54-3884589858
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            rodrigovillegafernandezz@gmail.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            San Salvador de Jujuy,Argentina
+                        </li>
+                    </ul>
+                </div>
+                <!--intereses-->
+                <div class="col">
+                    <h3>INTERESES</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car-side"></i>
+                            <span>CONDUCIR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-kitchen-set"></i>
+                            <span>COCINA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <span>CREAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>APRENDER</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>PC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-volleyball"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="/assets/Curriculum Vitae.pdf">
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+    <!--Curriculum-->
+    <section id="Curriculum" class="Curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>EDUCACION</h3>
+                    <div class="item izq">
+                        <h4>EDUCAION PRIMARIA</h4>
+                        <span class="casa">Escuela n°1 Gral.Manuel Belgrano <br> Escuela n°223 Arzobispo Jose Mariano
+                            Roque Mendizabal</span>
+                        <span class="fecha">2006 - 2012</span>
+                        <p>Concurri en la Escuela n°1 Gral.Manuel Belgrano hasta 3er Grado y luego fui cambiado a la
+                            Escuela n°223 Arzobispo Jose Mariano Roque Mendizabal por tema personales y porque quedaba
+                            mas cerca de donde vivia antes y termine mis estudios primarios en aquella Escuela. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>EDUCAION SECUNDARIA</h4>
+                        <span class="casa">Colegio n°1 Teodoro Sanchez de Bustamante <br> C.E.N.S n°43</span>
+                        <span class="fecha">2013 - 2019</span>
+                        <p>Estuve en el Colegio n°1 Teodoro Sanchez de Bustamante hasta 3er año ,repeti 2 veces en el
+                            mismo colegio el 3er año de Secundaria y a fin de año del 2017 Me cambia al C.E.N.S n°43
+                            para poder terminar mis estudios secundarios sin perder mas años.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>CURSOS</h4>
+                        <span class="casa">Desarrollo Web(Instituto NOA) <br>ArgentinaPrograma #SeProgramar</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Estoy por terminar el Curso de Desarrollo Web del Insituto NOA y Tengo aprobada la primera
+                            parte del curso de programacion de ArgentinaPrograma #SeProgramar con un 100% de nota final.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>TRABAJO</h3>
+                    <div class="item der">
+                        <h4>Vendedor Ambulante</h4>
+                        <span class="casa">Tamales.Inc</span>
+                        <span class="fecha">2019 - Actualmente</span>
+                        <p>Trabajo Brindado por un familiar que actualmente mantengo,comenza a trabajar con el objetivo
+                            de poder independizarme y poder cubrir mis gastos personales por mi cuenta. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Panaderia</h4>
+                        <span class="casa">Panificadora Granada</span>
+                        <span class="fecha">2019 - 2019</span>
+                        <p>Trabaje en la Panaderia Granada por unos pares de meses reemplazando a otro empleado del
+                            mismo,mi trabajo consistia en la reparticion de pan a negocios de toda la provincia en horas
+                            de la madrugada hasta el medio dia.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Kiosco</h4>
+                        <span class="casa">La Cueva del Lobo</span>
+                        <span class="fecha">2019 - 2020</span>
+                        <p>Fue mi primer trabajo no trabaje durante mucho tiempo porque el negocio era muy poco conocido
+                            y habia mucha competencia por la zona en donde trabajaba.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contacto-->
+    <section id="Contacto" class="Contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--formulario-->
+                <div class="col">
+                    <form action="https://formsubmit.co/5efd81235896bcc9fa42616caa233b53" method="POST">
+                        <label for="name"></label>
+                        <input type="text" name="name" placeholder="Tu nombre">
+                        <label for="num"></label>
+                        <input type="number" name="num" placeholder="Numero telefonico">
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="Correo Electronico">
+                        <label for="comments"></label>
+                        <textarea name="comments" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <!--mapa-->
+                <div class="col">
+                    <iframe class="ubicacion"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1162.7174222351623!2d-65.25622302736276!3d-24.22517646389922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDEzJzMwLjYiUyA2NcKwMTUnMjMuOCJX!5e0!3m2!1ses!2sar!4v1678835184038!5m2!1ses!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Barrio Arenales por ruta n°1
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                Whatsapp:3884589858
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                rodrigovillegafernandezz@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <a href="#Inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/rodrigo.villegafernandez"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/RoodriVillega"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/rodrii__fernandeez/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=%2B543884589858&text=Holi%2Ccomo+ta%3F"><i
+                    class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
